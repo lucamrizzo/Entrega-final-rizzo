@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif; }
+
+body {
+  min-height: 115vh;
+  margin: 0;
+  position: relative;
+  padding-bottom: 6em;
+  background-size: cover;
+  background-position: center;
+  background-color: lightgoldenrodyellow;
+  align-items: center;
+  justify-content: center; }
+  
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100; }
+
+.logo {
+  font-size: 32px;
+  color: #2b2613;
+  text-decoration: none;
+  font-weight: 700; }
+
+.navbar {
+  display: flex;
+  gap: 40px; }
+  .navbar a {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #2b2613;
+    font-weight: 500;
+    text-decoration: none; }
+
+.section-1 {
+  height: 100vh;
+  background-image: url(../assets/log1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 10%; }
+
+  .carousel-inner{
+    width: 50%;
+    max-height:660px;
+    margin: auto;
+  }
+.carousel-caption{
+  background-color: #333;
+  opacity: 80%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+  color: white;
+}
+  .carousel-caption h5{
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+  }
+  .carousel-caption p {
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+  }
+
+.accordion h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+.accordion-body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.div-main {
+  width: 100%;
+  background-color: #686767;
+  opacity: 80%; }
+  .div-main h2 {
+    padding-bottom: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.125rem;
+    font-weight: 600;
+    text-align: center;}
+  .div-main h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 600;
+    text-align: center;
+    color: white; }
+.card {
+  display:inline-block;
+  width: 33%;
+}
+  .card h5{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .card p{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .card small{
+    font-family: 'Ubuntu', sans-serif;
+  }
+.col-2 {
+  flex-grow: 2; }
+
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #3b3b3b;
+  margin-bottom: .625rem; }
+
+.form-container {
+  max-width: 60rem;
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem; }
+
+form input {
+  width: 20rem;
+  height: 2.8125rem;
+  border-radius: .25rem;
+  text-align: center;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+  outline: none;
+  border: none; }
+
+form button {
+  background: transparent;
+  border: .125rem solid #686868;
+  color: #b58732;
+  border-radius: 1.875rem;
+  padding: .625rem 1.875rem;
+  font-size: .625rem;
+  cursor: pointer; }
+
+.social-icons i {
+  font-size: 1.25rem;
+  margin: .625rem;
+  cursor: pointer; }
+
+.grid-formulario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  .grid-formulario form {
+    display: flex;
+    flex-direction: column; }
+
+.map {
+  grid-column-start: 2; }
+
+.mainform {
+  width: 100%;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;}
+    .mainform h3{
+      font-family: 'Ubuntu', sans-serif;
+      padding: 50px;
+    }
+    .item{
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer ul {
+  list-style: none; }
+
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column; }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+  }
+  .card {
+    display: flex;
+    width: 100%;
+  }
+  .mainform {
+    display: flex;
+    width: 100%;}
+  .map {
+    display: none !important; }
+  .section-1 {
+    padding: 0; } }
